@@ -5,12 +5,13 @@
 }
 
 #container {
-    background-color: #e17b1b;
+    background-color: black;
     width: 50%;
     margin: auto;
     margin-top: 5rem;
     border-radius: .5rem;
     padding: 1rem;
+    border: 1px solid white;
 }
 h1 {
     display: flex;
@@ -18,7 +19,7 @@ h1 {
 }
 
 .faixa {
-    background-color: black;
+    background-color: white;
     height: .05rem;
     width: 90%;
     margin: auto;
@@ -54,23 +55,31 @@ button{
     border: none;
     justify-content: center;
     border-radius: .5rem;
-    background-color: #000000;
-    color: white;
+    background-color: white;
+    color: black;
     cursor: pointer;
     font-weight: 600;
 }
+
+
 
 .result {
     width: 80%;
     height: 10rem;
     background-color: white;
     border-radius: .5rem;
+    color: black;
 
     display: flex;
     margin: auto;
     margin-top: 3rem;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
 }
 
 body {
     font-family: "Poppins", sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.87);
 }
