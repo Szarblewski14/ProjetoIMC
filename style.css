@@ -59,6 +59,17 @@ button{
     color: black;
     cursor: pointer;
     font-weight: 600;
+    border: 2px solid black;
+}
+
+#btn:hover {
+    border: 2px solid #2828ffe3;
+    color: #2828ffe3;
+}
+
+#btn2:hover {
+    border: 2px solid rgb(255, 18, 18);
+    color:rgb(255, 18, 18);
 }
 
 

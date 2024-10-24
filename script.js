@@ -1,4 +1,5 @@
 let btn = document.querySelector('#btn')
+let RefazBtn = document.querySelector ('#btn2')
 
 function imc () {
     const nome = document.querySelector('#nome').value
@@ -31,4 +32,12 @@ function imc () {
     }
 }
 
+function delet () {
+    document.querySelector('#nome').value = ''
+    document.querySelector('#altura').value = ''
+    document.querySelector('#peso').value = ''
+    resultado.textContent = 'Preencha os dados novamente'
+}
+
 btn.addEventListener('click', imc)
+RefazBtn.addEventListener('click', delet)
