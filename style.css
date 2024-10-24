@@ -101,4 +101,8 @@ body {
         width: 99%;
         margin-bottom: 5rem;
     }
+
+    .result {
+        font-size: .5rem;
+    }
 }
