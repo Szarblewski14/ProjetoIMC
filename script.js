@@ -36,7 +36,7 @@ function delet () {
     document.querySelector('#nome').value = ''
     document.querySelector('#altura').value = ''
     document.querySelector('#peso').value = ''
-    resultado.textContent = 'Preencha os dados novamente'
+    resultado.textContent = 'Preencha seus dados'
 }
 
 btn.addEventListener('click', imc)
